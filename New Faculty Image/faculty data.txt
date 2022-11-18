@@ -1,0 +1,89 @@
+
+facultyList.add(Faculty(R.drawable.manoj_acharya,"Dr. Manoj Acharya”,”Senior Associate Professor"))
+
+facultyList.add(Faculty(R.drawable.akshara_makrariya,"Dr. Akshara Makrariya”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.kanchan_lata,"Dr. Kanchan Lata Kashyap”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.reena_jain,"Dr. Reena Jain”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.nilamadhab_mishra,"Dr. Nilamadhab Mishra”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.abhay_vidyarthi,"Dr. Abhay Vidyarthi”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.paras_jain,"Dr.Paras Jain”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.anant_kant_shukla,"Dr. Anant Kant Shukla”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.divya_haridas,"Dr. Divya Haridas”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.ribu,"Dr. Ribu Mathew”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.muneeswaran,"Dr Muneeswaran V”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.manickam,"Dr.A.Manickam”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.suthir,"Dr. S. Suthir”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.kannan_shanmugam,"Dr. Kannan Shanmugam”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.avr_mayuri,"Dr. AVR Mayuri”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.murugeswari,"Dr. Murugeswari .K”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.pavan-kumar,"Dr.Pavan Kumar”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.swagat_samantaray,"Dr. Swagat Samantaray”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.ganeshan,"Dr. Ganeshan R”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.balaji,"Dr. Balaji A”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.kumar_abhishek,"Dr. Kumar Abhishek”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.sandip_mal,"Dr. Sandip Mal”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.bhakti_parashar,"Dr. Bhakti Parashar”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.pankaj,"Dr. Pankaj Kumar”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.saravanan_s,"Dr. Saravanan S”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.preetam_c,"Dr. Preetam Suman”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.vinesh,"Dr. Vinesh Kumar”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.nitin_kumar_mishra,"Dr. Nitin Kumar Mishra”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.jaiIsngh_w,"Dr. Jai Singh W”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.devaraju,"Dr. S. Devaraju”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.vairachilai,"Dr. S. Vairachilai”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.pritpal_singh,"Dr. Pritpal Singh”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.soma_saha,"Dr. Soma Saha”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.monoj_kumar_muchahari,"Dr. Monoj Kumar Muchahari”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.sambasivam,"Dr. Sambasivam G”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.ravi_verma,"Dr. Ravi Verma”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.anirban_bhowmick,"Dr. Anirban Bhowmick”,”Senior Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.ramu_pasupathi,"Dr. Ramu Pasupathi Sugavaneshwar”,”Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.avirup_das,"Dr. Avirup Das”,”Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.sharad_chandra_tripathi,"Dr. Sharad Chandra Tripathi”,”Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.praveen_lalwani,"Dr. Praveen Lalwani”,”Assistant Professor"))
+
+facultyList.add(Faculty(R.drawable.sumit_mittal,"Dr. Sumit Mittal”,”Assistant Professor"))
+
+
+
+
+

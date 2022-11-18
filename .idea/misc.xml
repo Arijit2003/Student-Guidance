@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/drawable/ic_na_menu.xml" value="0.1" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/drawable/ic_nav_menu.xml" value="0.1625" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/drawable/ic_navigation.xml" value="0.1625" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/drawable/search_background.xml" value="0.2595" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/drawable/search_view.xml" value="0.2595" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_about_us.xml" value="0.264" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_auditorium_to_different_loc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_bh1_to_location.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_bh2_to_location.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_bh3_to_location.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_faculty_info.xml" value="0.176" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_faculty_list.xml" value="0.176" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_faculty_list2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_girls_hostel_to_diff_loc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_initial_navigation_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_lab_complex_to_different_loc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_multipurpose_to_different_loc.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_navigation_list.xml" value="0.2" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_parking_area_to_different_loc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_post_office_to_different_loc.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_source_page.xml" value="0.2" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_underbelly_to_different_loc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/activity_visa_mart_to_different_loc.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/faculty_list2.xml" value="0.253125" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/faculty_list_one_sample.xml" value="0.4" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/navigation_header.xml" value="0.2" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/one_faculty.xml" value="0.176" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/search_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/layout/source_page_one_sample.xml" value="0.24" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/menu/drawer_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Android Project/StudentGuidance3O/app/src/main/res/menu/menu_search.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

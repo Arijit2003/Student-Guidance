@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">StudentGuidance</string>
+    <string name="ab">Academic Block</string>
+    <string name="navigation">Navigation</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">Student Guidance</string>
+
+    <string name="ashishT">Dr. Ashish Tripathi</string>
+    <string name="sheetalS">Dr. Sheetal Sharma</string>
+    <string name="debashisA">Dr. Debashis Adhikari</string>
+    <string name="poonkuntran">Dr. S. Poonkuntran</string>
+    <string name="shriram">Dr. R. Shriram</string>
+    <string name="georgeC">Dr. George Chellin Chandran</string>
+    <string name="shishirKS">Dr. Shishir Kumar Shandilya</string>
+    <string name="pushpinderSP">Dr. Pushpinder Singh Patheja</string>
+    <string name="balaguru">Dr.S Balaguru</string>
+    <string name="lakshmiD">Dr. Lakshmi .D</string>
+    <string name="manishaJ">Dr. Manisha Jain</string>
+    <string name="vinodB">Dr. Vinod Bhatt</string>
+    <string name="harshavardhanan">Dr. Pon Harshavardhanan</string>
+    <string name="venkatP">Dr. Venkat Padhy</string>
+    <string name="mamtaA">Dr. Mamta Agrawal</string>
+    <string name="navneetKV">Dr. Navneet Kumar Verma</string>
+    <string name="xavierS">Dr. M. Xavier Suresh</string>
+    <string name="mahendranB">Dr. Mahendran B</string>
+    <string name="komarasamyG">Dr Komarasamy G</string>
+    <string name="ananthakumaran">Dr. S. Ananthakumaran</string>
+    <string name="prasadB">Dr. Prasad Begde</string>
+    <string name="subashCB">Dr. J. Subash Chandra Bose</string>
+    <string name="asdaqueH">Dr. Md Asdaque Hussain</string>
+    <string name="sasmitaP">Dr. Sasmita Padhy</string>
+    <string name="ushaR">Dr. A. Usha Ruby</string>
+    <string name="periyanayagi">Dr. S. Periyanayagi</string>
+    <string name="nehaC">Dr. Neha Choubey</string>
+    <string name="azathH">Dr. Azath.H</string>
+    <string name="BaseeraA">Dr. Baseera A</string>
+    <string name="shwetaM">Dr. Shweta Mukherjee</string>
+    <string name="manojA">Dr. Manoj Acharya</string>
+    <string name="aksharaM">Dr. Akshara Makrariya</string>
+    <string name="kanchanLK">Dr. Kanchan Lata Kashyap</string>
+    <string name="reenaJ">Dr. Reena Jain</string>
+    <string name="nilamadhabM">Dr. Nilamadhab Mishra</string>
+    <string name="abhayV">Dr. Abhay Vidyarthi</string>
+    <string name="parasJ">Dr.Paras Jain</string>
+    <string name="anantKS">Dr. Anant Kant Shukla</string>
+    <string name="divyaH">Dr. Divya Haridas</string>
+    <string name="ribuM">Dr. Ribu Mathew</string>
+    <string name="muneeswaranV">Dr Muneeswaran V</string>
+    <string name="manickam">Dr.A.Manickam</string>
+    <string name="suthir">Dr. S. Suthir</string>
+    <string name="kannanS">Dr. Kannan Shanmugam</string>
+    <string name="mayuri">Dr. AVR Mayuri</string>
+    <string name="murugeswariK">Dr. Murugeswari .K</string>
+    <string name="pavanK">Dr.Pavan Kumar</string>
+    <string name="swagatS">Dr. Swagat Samantaray</string>
+    <string name="ganeshanR">Dr. Ganeshan R</string>
+    <string name="balajiA">Dr. Balaji A</string>
+    <string name="kumarA">Dr. Kumar Abhishek
+</string>
+    <string name="sandipM">Dr. Sandip Mal
+</string>
+    <string name="bhaktiP">Dr. Bhakti Parashar
+</string>
+    <string name="pankajK">Dr. Pankaj Kumar
+</string>
+    <string name="saravananS">Dr. Saravanan S
+</string>
+    <string name="preetamS">Dr. Preetam Suman
+</string>
+    <string name="vineshK">Dr. Vinesh Kumar
+</string>
+    <string name="nitinKM">Dr. Nitin Kumar Mishra
+</string>
+    <string name="jaiSW">Dr. Jai Singh W
+</string>
+    <string name="devaraju">Dr. S. Devaraju
+</string>
+    <string name="vairachilai">Dr. S. Vairachilai
+</string>
+    <string name="pritpalS">Dr. Pritpal Singh
+</string>
+    <string name="somaS">Dr. Soma Saha
+</string>
+    <string name="monojKM">Dr. Monoj Kumar Muchahari
+</string>
+    <string name="sambasivamG">Dr. Sambasivam G
+</string>
+    <string name="raviV">Dr. Ravi Verma
+</string>
+    <string name="anirbanB">Dr. Anirban Bhowmick
+</string>
+    <string name="ramuPS">Dr. Ramu Pasupathi Sugavaneshwar
+    </string>
+    <string name="avirupD">Dr. Avirup Das
+</string>
+    <string name="sharadCT">Dr. Sharad Chandra Tripathi
+</string>
+    <string name="praveenL">Dr. Praveen Lalwani
+</string>
+    <string name="sumitM">Dr. Sumit Mittal
+</string>
+    <string name="anitaY">Dr. Anita Yadav
+</string>
+    <string name="rajeevS">Dr. Rajeev Saxena
+</string>
+    <string name="ajayKB">Dr. Ajay Kumar Bhurjee
+</string>
+    <string name="rabiaM">Dr. Rabia Musheer
+</string>
+    <string name="nellaA">Dr. Nella Anveshkumar
+</string>
+    <string name="jyotiB">Dr. Jyoti Badge
+</string>
+    <string name="sathishKL">Dr. Sathish Kumar .L
+</string>
+    <string name="yogeshS">Dr. Yogesh Shukla
+</string>
+    <string name="benevathoJA">Dr. Benevatho Jaison A
+</string>
+    <string name="ankurB">Dr. Ankur Beohar
+</string>
+    <string name="chandanK">Dr. Chandan Kumar</string>
+    <string name="saravananJ">Dr. Saravanan J
+</string>
+    <string name="manishaS">Dr. Manisha Singh
+</string>
+    <string name="pallabiS">Dr. Pallabi Sarkar
+</string>
+    <string name="sureshD">Dr.Suresh Dara
+</string>
+    <string name="mayankS">Dr. Mayank Sharma
+</string>
+    <string name="bhumikaC">Dr.Bhumika Choksi
+</string>
+    <string name="subhashCP">Dr. Subhash Chandra Patel
+</string>
+    <string name="mohammedIA">Dr.Mohammed Ifran Alam
+</string>
+    <string name="ankushDT">Dr.Ankush D Tharkar
+</string>
+    <string name="prashantGK">Dr. Prashant G K
+</string>
+    <string name="rohitS">Dr.Rohit Sharma
+</string>
+    <string name="siddharthaM">Dr.Siddhartha Maiti
+</string>
+    <string name="neetuK">Dr.Neetu Kalra
+</string>
+    <string name="pradeepKK">Dr. Pradeep Kumar Kayshap
+</string>
+    <string name="sayedMZ">Dr.Sayed Mohammed Zeeshan
+</string>
+    <string name="pushpdantJ">Dr.Pushpdant Jain
+</string>
+    <string name="rajdeepSP">Dr.Rajdeep Singh Payal
+</string>
+    <string name="susantKP">Dr. Susant Kumar Panigrahi
+</string>
+    <string name="balaji">Dr. G.L. Balaji
+</string>
+    <string name="rajasoundaran">DR. S. Rajasoundaran
+</string>
+    <string name="raviB">Dr. Ravi Bhatt
+</string>
+    <string name="soumyaSG">Dr. Soumya Sankar Ghosh
+</string>
+    <string name="sauravP">Dr. Saurav Prasad
+</string>
+    <string name="rakesh">Dr. R. Rakesh
+</string>
+    <string name="hariharasitaraman">Dr. Hariharasitaraman. S
+</string>
+    <string name="saravanan">Dr. D. Saravanan
+</string>
+    <string name="vikasP">Dr. Vikas Panthi
+</string>
+    <string name="abhaT">Dr. Abha Trivedi
+</string>
+    <string name="virendraSK">Dr. Virendra Singh Kushwah
+</string>
+    <string name="ashokP">Dr. Ashok Patel
+</string>
+    <string name="rizwanUR">Dr. Rizwan Ur Rahman
+</string>
+    <string name="satyamR">Dr. Satyam Ravi
+</string>
+    <string name="atulA">Dr. Atul Aman
+</string>
+    <string name="shivMG">Dr. Shiv Manjaree Gopaliya
+</string>
+    <string name="sivasankaran">Dr. Sivasankaran
+</string>
+    <string name="suchetanaS">Dr. Suchetana Sadhukhan
+</string>
+    <string name="vivekKY">Dr. Vivek Kumar Yadav
+</string>
+    <string name="justinJ">Dr. Justin Joseph
+</string>
+    <string name="manikandan">Dr. J. Manikandan
+</string>
+    <string name="shwetaS">Dr. Shweta Saxena
+</string>
+    <string name="maragatharajan">Dr. M. Maragatharajan
+</string>
+    <string name="saurabhB">Dr. Saurabh Bhargava
+</string>
+    <string name="soumitraN">Dr. Soumitra Nayak
+</string>
+    <string name="traptiS">Dr. Trapti Sharma
+</string>
+    <string name="baldevS">Dr. Baldev Swamy
+</string>
+    <string name="animeshB">Dr. Animesh Bhandari
+</string>
+    <string name="thangavel">Dr. M. Thangavel
+</string>
+    <string name="ashishKS">Dr. Ashish Kumar Sahu
+</string>
+    <string name="anjuS">Dr. Anju Shukla
+</string>
+    <string name="dipankarS">Dr. Dipankar Sutradhar
+</string>
+    <string name="abhijitS">Dr. Abhijit Sarkar
+</string>
+    <string name="ankitP">Dr. Ankit Pal
+</string>
+    <string name="thiyaguP">Dr. M. R. Thiyagu Priyadharsan
+</string>
+    <string name="rudraKN">Dr. Rudra Kalyan Nayak
+</string>
+    <string name="kamleshC">Dr. Kamlesh Chandravanshi
+</string>
+    <string name="varshaliJ">Dr. Varshali Jaiswal
+</string>
+    <string name="anilKY">Dr. Anil Kumar Yadav
+</string>
+    <string name="mrityunjayS">Dr. Mrityunjay Singh
+</string>
+    <string name="pradeepKM">Dr. Pradeep Kumar Mishra
+</string>
+    <string name="gauravS">Dr. Gaurav Soni
+</string>
+    <string name="ashokKB">Dr. Ashok Kumar Baral
+</string>
+    <string name="rahulP">Dr. Rahul Pal
+</string>
+    <string name="prabuM">Dr. Prabu M
+</string>
+    <string name="prabuK">Dr. G. Prabu Kanna
+</string>
+    <string name="rougK">Dr. Ab Rouf Khan
+</string>
+    <string name="narendraB">Dr. P. Narendra Babu
+</string>
+    <string name="sheerinK">Dr. Sheerin Kayenat
+</string>
+    <string name="siddharthSC">Dr. Siddharth Singh Chouhan
+</string>
+    <string name="bratG">Dr. Dev Brat Gupta
+</string>
+    <string name="harishC">Dr. Harish Chandra
+</string>
+    <string name="rajdeepG">Dr. Rajdeep Ghosh
+</string>
+    <string name="dhereshS">Dr. Dheresh Soni
+</string>
+    <string name="rameshS">Dr. Ramesh Saha
+</string>
+    <string name="hariharanR">Dr. Hariharan R
+</string>
+    <string name="satyajitM">Dr. Satyajit Mahapatra
+</string>
+    <string name="abhilashS">Dr. Abhilash Sahu
+</string>
+    <string name="kamalKV">Dr. Kamal Kant Verma
+</string>
+    <string name="pazhaniraja">Dr. N. Pazhaniraja
+</string>
+    <string name="venkatakoteswararao">Dr. Nilam Venkatakoteswararao
+</string>
+    <string name="arpitaB">Dr. Arpita Baronia
+</string>
+    <string name="karthikRMC">Dr. Karthik Rao M C
+</string>
+    <string name="aanjanK">Dr. S. Aanjan Kumar
+</string>
+    <string name="ankurJ">Dr. Ankur Jain
+</string>
+    <string name="ujjwalKM">Dr. Ujjwal Kumar Mishra
+</string>
+    <string name="udaiK">Dr. Udai Kumar
+</string>
+    <string name="anilKS">Dr. Anil Kumar Shukla
+</string>
+    <string name="tusharC">Dr. Tushar Chourushi
+</string>
+    <string name="rahulKC">Dr. Rahul Kumar Chaturvedi
+</string>
+    <string name="suparnaP">Dr. Suparna Patowary
+</string>
+    <string name="suchismitaP">Dr. Suchismita Patra
+</string>
+    <string name="professor">Professor</string>
+    <string name="senior_associate_professor">Senior Associate Professor</string>
+    <string name="associate_professor">Associate Professor</string>
+    <string name="senior_assistant_professor">Senior Assistant Professor</string>
+    <string name="assistant_professor">Assistant Professor</string>
+    <string name="facultyInfo">FACULTY INFO</string>
+    <string name="viswanathan">G Viswanathan</string>
+    <string name="chancellor">Chancellor</string>
+    <string name="business">VITBS - VIT Business School</string>
+    <string name="cabin">G-03</string>
+    <string name="mail">viswanathan.chancellor2017@vitbhopal.ac.in</string>
+    <string name="bh1">Boys Hostel 1</string>
+    <string name="bh2">Boys Hostel 2</string>
+    <string name="bh3">Boys Hostel 3</string>
+    <string name="gh">Girls Hostel</string>
+    <string name="lc">Lab Complex</string>
+    <string name="mh">Multipurpose Hall</string>
+    <string name="postOff">Post Office</string>
+    <string name="academicb">From: Academic Block</string>
+    <string name="underbelly">Underbelly</string>
+    <string name="visamart">Visa Mart</string>
+    <string name="parking">Parking Area</string>
+    <string name="dist_from_ab_to_bh1">2.2KM</string>
+    <string name="dist_from_ab_to_bh2">2.4KM</string>
+    <string name="dist_from_ab_to_bh3">2.4KM</string>
+    <string name="dist_from_ab_to_gh">1.4KM</string>
+    <string name="dist_from_ab_to_lc">0.4KM</string>
+    <string name="dist_from_ab_to_ub">0.15KM</string>
+    <string name="dist_from_ab_to_vm">0.15KM</string>
+    <string name="dist_from_ab_to_mh">0.3KM</string>
+    <string name="source">Source</string>
+    <string name="dest">Destination</string>
+    <string name="location">Location</string>
+    <string name="destination">Destination</string>
+    <!-- Architecture-->
+    <string name="auditorium">To: Auditorium</string>
+    <string name="about">About Us</string>
+    <string name="share">Share</string>
+    <string name="welcome">WELCOME</string>
+    <string name="search">Search</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="instagram">Instagram</string>
+    <string name="telegram">Telegram</string>
+    <string name="contact">Contact Us</string>
+    <string name="email">crevolution56477@gmail.com</string>
+</resources>
