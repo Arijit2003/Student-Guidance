@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFaculty">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:titleTextColor="#090909"
+            app:title="@string/app_name"
+            android:background="#6BBEFF"
+            android:layout_width="match_parent"
+
+            android:layout_height="?attr/actionBarSize"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="150dp"
+                    android:foreground="?selectableItemBackground"
+                    android:layout_marginTop="20dp"
+                    app:cardElevation="5dp">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/facImage"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/img_1"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/name"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/acme" />
+
+                <EditText
+                    android:id="@+id/nameValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"
+                    app:fontFamily="sans-serif-condensed-medium"
+                    android:inputType="textPersonName"
+                    />
+
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/designation"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/acme"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/designationValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"
+                    app:fontFamily="sans-serif-condensed-medium"
+
+                    android:inputType="textPersonName"
+                    />
+
+                <TextView
+                    android:id="@+id/department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/department"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/acme"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/departmentValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"
+                    app:fontFamily="sans-serif-condensed-medium"
+
+                    android:inputType="textPersonName"
+                    />
+
+                <TextView
+                    android:id="@+id/cabin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cabin1"
+                    app:fontFamily="@font/acme"
+                    android:textSize="14sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/cabinValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"
+                    app:fontFamily="sans-serif-condensed-medium"
+
+                    android:inputType="textPersonName"
+                    />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/email1"
+                    android:textSize="14sp"
+                    app:fontFamily="@font/acme" />
+
+                <EditText
+                    android:id="@+id/emailValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"
+                    app:fontFamily="sans-serif-condensed-medium"
+
+                    android:inputType="textPersonName"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

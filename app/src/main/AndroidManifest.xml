@@ -2,12 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.studentguidance3o">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <queries>
+
         <!-- Explicit apps you know in advance about: -->
-        <package android:name="com.whatsapp"/>
-        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.whatsapp" />
+        <package android:name="org.telegram.messenger" />
     </queries>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,9 +21,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
-        
+        <activity
+            android:name=".AddFaculty"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyList"
+            android:exported="false" />
         <activity
             android:name=".AboutUs"
             android:exported="false" />
@@ -52,7 +63,6 @@
         <activity
             android:name=".Bh2ToLocation"
             android:exported="false" />
-
         <activity
             android:name=".Bh1ToLocation"
             android:exported="false" />
@@ -63,11 +73,9 @@
             android:name=".NavigationList"
             android:exported="false" />
         <activity
-            android:name=".FacultyList"
+            android:name=".Profile"
             android:exported="false" />
-        <activity
-            android:name=".FacultyInfo"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -77,6 +85,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

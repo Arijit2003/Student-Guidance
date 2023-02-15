@@ -345,4 +345,25 @@
     <string name="telegram">Telegram</string>
     <string name="contact">Contact Us</string>
     <string name="email">crevolution56477@gmail.com</string>
+    <!--******-->
+    <string name="designation">Designation</string>
+    <string name="department">Department</string>
+    <string name="cabin2">Cabin</string>
+    <string name="email1">Email</string>
+    <string name="save">Save</string>
+    <string name="facName">Dr. Debashis Adhikari</string>
+    <string name="facDesignation">Assistant Professor</string>
+    <string name="cabin1">Cabin:</string>
+    <string name="cabinNo">A007</string>
+    <string name="departmentValue">SEEE- School of Electrical and Electronics Engineering</string>
+    <string name="emailValue">pon.harshbardhanan@vitbhopal.ac.in</string>
+    <string name="department1">Department:</string>
+
+    <string name="password">Password</string>
+    <string name="createNewAcc">Create New Account</string>
+    <string name="name">Name</string>
+    <string name="login">LOGIN</string>
+    <string name="createAcc">Create Account</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
 </resources>

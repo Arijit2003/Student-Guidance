@@ -1,58 +1,66 @@
 package com.example.studentguidance3o
+import android.Manifest
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.LinearLayout
 import android.speech.RecognizerIntent
 import android.view.MenuItem
 import android.view.WindowManager
+import android.widget.ImageView
 import android.widget.Toast
-import android.widget.TextView
-import androidx.annotation.ColorInt
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import java.util.*
 import androidx.cardview.widget.CardView
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import com.denzcoskun.imageslider.ImageSlider
-import com.denzcoskun.imageslider.constants.ScaleTypes
-import com.denzcoskun.imageslider.models.SlideModel
 import com.google.android.material.navigation.NavigationView
-import com.synnapps.carouselview.CarouselView
-import com.synnapps.carouselview.ImageListener
-import kotlin.collections.ArrayList
+import com.jackandphantom.carouselrecyclerview.CarouselRecyclerview
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     lateinit var output:String
     lateinit var micIV: ImageView
     private val REQUEST_CODE_SPEECH_INPUT = 1
     lateinit var drawerLayout:DrawerLayout
+    private var carouselRV:CarouselRecyclerview?=null
+    private var internetLauncher:ActivityResultLauncher<String> =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()){
+            isGranted->
+            if(isGranted){
+                Toast.makeText(this,"Internet permission granted",Toast.LENGTH_SHORT).show()
+
+            }
+            else{
+                Toast.makeText(this,"Internet permission denied",Toast.LENGTH_SHORT).show()
+            }
+        }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        launchInternetDialog()
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         drawerLayout = findViewById(R.id.drawerLayout)
+        carouselRV=findViewById(R.id.carouselRV)
+
         val navView: NavigationView = findViewById(R.id.navView)
-        val imageSlider: ImageSlider = findViewById(R.id.imageSlider)
-        var imageList: ArrayList<SlideModel> = arrayListOf()
-        imageList.add(SlideModel(R.drawable.academic))
-        imageList.add(SlideModel(R.drawable.boys_hostel1))
-        imageList.add(SlideModel(R.drawable.girls_hostel))
-        imageList.add(SlideModel(R.drawable.bh1_bh2))
-        imageList.add(SlideModel(R.drawable.lab_complex))
-        imageList.add(SlideModel(R.drawable.multipurpose))
-        imageList.add(SlideModel(R.drawable.auditorium))
-        imageList.add(SlideModel(R.drawable.post_office))
-        imageList.add(SlideModel(R.drawable.ab))
-        imageList.add(SlideModel(R.drawable.bh1_new))
-        imageList.add(SlideModel(R.drawable.nature))
-        imageList.add(SlideModel(R.drawable.lion))
-        imageList.add(SlideModel(R.drawable.nature2))
-        imageList.add(SlideModel(R.drawable.lc_inside))
-        imageSlider.setImageList(imageList, ScaleTypes.FIT)
+
+        val imageList: ArrayList<Model> = arrayListOf()
+        imageList.add(Model(R.drawable.academic,"Academic Block"))
+        imageList.add(Model(R.drawable.boys_hostel1,"Boys Hostel 1"))
+        imageList.add(Model(R.drawable.girls_hostel,"Girls Hostel"))
+        imageList.add(Model(R.drawable.bh1_bh2,"Boys Hostel2"))
+
+        var myCarouselAdapter:MyCarouselAdapter= MyCarouselAdapter(this,imageList)
+        carouselRV!!.adapter=myCarouselAdapter
+        carouselRV!!.set3DItem(true)
+        carouselRV!!.setAlpha(true)
+        carouselRV!!.setInfinite(true)
+
+
         setSupportActionBar(toolbar)
 
 
@@ -140,6 +148,27 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun launchInternetDialog() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
+            shouldShowRequestPermissionRationale(Manifest.permission.INTERNET)
+        ) {
+            createAlertDialog("Student Guidance require Internet access",
+                "But you denied internet access")
+        } else {
+            internetLauncher.launch(Manifest.permission.INTERNET)
+        }
+    }
+
+    private fun createAlertDialog(title: String, message: String) {
+        val build:AlertDialog.Builder=AlertDialog.Builder(this)
+        build.setTitle(title)
+        build.setMessage(message)
+        build.setPositiveButton("Cancel"){dialog,_->
+            dialog.dismiss()
+        }
+
+    }
+
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -172,7 +201,7 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 if("faculty" in output){
-                    val intent:Intent=Intent(this,FacultyList::class.java)
+                    val intent:Intent=Intent(this,Profile::class.java)
                     startActivity(intent)
                 }
                 if("boys hostel 1" in output){

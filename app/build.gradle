@@ -57,6 +57,13 @@ dependencies {
     // Drawer layout dependency
     //noinspection GradleCompatible
     implementation 'com.android.support:design:26.1.0'
+    // Carousel Recycler view
+    implementation 'com.github.sparrow007:carouselrecyclerview:1.2.6'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
 
 
 
